@@ -1,5 +1,6 @@
 # FIFTEEN-PUZZLE
 A modern, gamified Fifteen Puzzle game built with Python and Tkinter, featuring a Human vs CPU mode powered by the A* search algorithm and Manhattan distance heuristic. Includes an interactive GUI, score tracking, timer
+
 1️⃣Board Setup
 The board size is 4×4
 Tiles contain numbers 1 to 15
@@ -15,9 +16,9 @@ Only tiles next to the empty space are allowed
 
 4️⃣ Manhattan Distance (Heuristic)
 Calculates how far tiles are from their correct position
-Used by AI to decide the best move
+Used by CPU to decide the best move
 
-5️⃣ AI Logic – A* Algorithm
+5️⃣ CPU Logic – A* Algorithm
 Uses:
 g(n) → number of moves
 h(n) → Manhattan distance
