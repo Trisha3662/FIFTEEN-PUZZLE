@@ -8,7 +8,7 @@ import time
 SIZE = 4
 GOAL = list(range(1, SIZE * SIZE)) + [0]
 
-#GUI COLOURS
+#GUI COLOURs
 BG_COLOR = "#E8F6F3"      
 TILE_COLOR = "#FFF9C4"    
 EMPTY_SLOT = "#A9DFBF"    
@@ -323,3 +323,4 @@ if __name__ == "_main_":
     FifteenGame(root)
 
     root.mainloop()
+
